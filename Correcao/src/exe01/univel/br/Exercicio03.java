@@ -14,7 +14,7 @@ public class Exercicio03 {
 	try {
 		con = getConexao();
 		excluirTodosClientes(con);
-		insereCliente(con, 1, "Hugo");
+		insereCliente(con, 1, "Joao");
 		insereCliente(con, 2, "José");
 		insereCliente(con, 3, "Luiz");
 		mostrarTodosClientes(con);
